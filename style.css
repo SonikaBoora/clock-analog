@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right,rgb(47, 42, 48), rgb(59, 51, 60));
+    background: linear-gradient(45deg,rgb(16, 15, 16),#aaa,#aaa, rgb(25, 24, 25));
     font-family: 'Courier New', Courier, monospace;
 }
 .clock{
