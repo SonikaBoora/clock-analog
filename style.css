@@ -1,8 +1,11 @@
 body{
+    background: linear-gradient(to right,rgb(47, 42, 48), rgb(59, 51, 60));
     font-family: 'Courier New', Courier, monospace;
 }
 .clock{
-    border: 10px solid black;
+    border: 10px solid white;
+    background: linear-gradient(to right,rgb(163, 7, 184), rgb(59, 4, 153) );
+    /* box-shadow: 5px 6px 5px 4px #222; */
     width:550px;
     height: 550px;
     border-radius: 50%;
@@ -10,7 +13,7 @@ body{
     position: relative;
 }
 .center{
-    background-color: black;
+    background-color:white;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -20,6 +23,7 @@ body{
 }
 .hour{
     font-size: 30px;
+    color: #aaa;
     font-weight: 700;
     position: absolute;
 }
@@ -87,12 +91,13 @@ body{
 .minuteHand .hand{
     width: 4px;
     height:215px;
-    background-color: black;
+    background-color: white;
     position: absolute;
     left: 218px;
 }
 .minuteHand .arrow{
     position: absolute;
+    color:white;
     font-family: Arial, Helvetica, sans-serif, serif;
     font-weight: 600;
     font-size: 25px;
@@ -115,12 +120,13 @@ body{
 .hourHand .hand{
     width: 4px;
     height:162px;
-    background-color:black;
+    background-color:white;
     position: absolute;
     left: 168px;
 }
 .hourHand .arrow{
     position: absolute;
+    color: white;
     font-family: Arial, Helvetica, sans-serif, serif;
     font-weight: 600;
     font-size: 25px;
@@ -143,7 +149,7 @@ body{
 .secondHand .hand{
     width: 2px;
     height:190px;
-    background-color:#333;
+    background:linear-gradient(45deg ,white,#aaa);
     position: absolute;
     left: 194px;
 }
