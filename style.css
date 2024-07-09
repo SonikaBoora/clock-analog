@@ -1,7 +1,6 @@
 body{
-    background: linear-gradient(45deg,rgb(16, 15, 16),#aaa,#aaa, rgb(25, 24, 25));
+    background:  rgb(25, 24, 25);
     font-family: 'Courier New', Courier, monospace;
-    background-repeat: no-repeat;
 }
 .clock{
     border: 10px solid white;
